@@ -18,6 +18,14 @@ body {
       width: 100%;
       max-width: 320px;
       height: 509px;
-      border: 4px solid #1698D9; }
+      padding: 4px;
+      box-sizing: border-box;
+      background-color: #1698D9;
+      clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%, 0% 20%); }
+      .container .catalog .card .info {
+        width: 100%;
+        height: 100%;
+        clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%, 0% 20%);
+        background-color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
