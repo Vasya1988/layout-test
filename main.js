@@ -1,6 +1,9 @@
 const elements = {
-    info: 'info'
+    info: 'info_inner'
 }
 
-document.querySelectorAll('.info')
-    .forEach((item) => {item.style.backgroundImage = "url('images/Photo.png')"})
+document.querySelectorAll(`.${elements.info}`)
+    .forEach((item) => {
+        item.style.backgroundImage = "url('images/Photo.png')"
+        // item.style.backgroundRepeat = "no-repeat"
+    })
