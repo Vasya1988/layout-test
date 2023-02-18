@@ -32,7 +32,8 @@ body {
           border-radius: 10px;
           background-color: #fff;
           background-repeat: no-repeat;
-          background-position: 50% 100%; }
+          background-position: 50% 100%;
+          position: relative; }
           .container .catalog .card .info_outer .info_inner .info_title {
             padding-left: 3em;
             padding-top: 1em;
@@ -46,7 +47,33 @@ body {
               color: #000;
               margin: 0.2em 0; }
             .container .catalog .card .info_outer .info_inner .info_title h2 {
-              margin: 0; }
+              margin: 3px 0 0 0; }
+            .container .catalog .card .info_outer .info_inner .info_title .title_description {
+              margin-top: 15px;
+              font-size: 14px;
+              color: #666666; }
+              .container .catalog .card .info_outer .info_inner .info_title .title_description .description_amount {
+                font-weight: bold; }
+          .container .catalog .card .info_outer .info_inner .weight {
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            background-color: #1698D9;
+            border-radius: 50%;
+            position: absolute;
+            bottom: 5%;
+            left: 60%; }
+            .container .catalog .card .info_outer .info_inner .weight .weight_amount {
+              color: #fff;
+              font-weight: bolder;
+              font-size: 3em;
+              text-align: center; }
+            .container .catalog .card .info_outer .info_inner .weight .weight_kg {
+              color: #fff;
+              text-align: center;
+              font-size: 34px; }
       .container .catalog .card .card_buy {
         margin-top: 1em;
         width: 100%;
